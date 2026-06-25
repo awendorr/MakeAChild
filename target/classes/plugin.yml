@@ -1,0 +1,12 @@
+name: MakeAChild
+version: 1.0
+main: com.davud.makeachild.MakeAChild
+api-version: '1.21'
+commands:
+  makeachild:
+    description: Make a child with a villager.
+    aliases: [cocukyap]
+permissions:
+  makeachild.admin:
+    description: Allows changing the biome of the spawned baby villager.
+    default: op
